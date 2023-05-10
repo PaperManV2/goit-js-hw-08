@@ -13,6 +13,7 @@ galleryItems.forEach(item => {
     'beforeend',
     `<a class="gallery__link" href="${item.original}">
     <img class="gallery__image" src="${item.preview}" alt="${item.description}" />
+    
   </a>`
   );
 });
